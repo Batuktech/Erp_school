@@ -1,0 +1,83 @@
+Primary Colors
+```css
+/* Main Brand Color */
+Olive Green:       #708238
+Olive Green Hover: #6B8E23
+
+/* Used for primary buttons, active states, badges, and accents */
+```
+
+Secondary Olive Green Variations
+```css
+/* Used for charts, alternative badges, and visual variety */
+Light Olive 1:     #8FA952
+Light Olive 2:     #99B45F
+Light Olive 3:     #A3BF6B
+Light Olive 4:     #ADC977
+```
+
+Neutral Colors
+```css
+/* Backgrounds */
+White:             #ffffff
+Light Gray:        #f3f3f5
+Accent Gray:       #e9ebef
+Muted:             #ececf0
+
+/* Borders */
+Border:            rgba(0, 0, 0, 0.1)
+```
+
+Text Colors
+```css
+/* From globals.css */
+Foreground:        oklch(0.145 0 0)  /* Near black */
+Muted Foreground:  #717182           /* Gray text */
+```
+
+Status Colors
+```css
+/* Success - uses primary olive green */
+Success:           #708238
+
+/* Error/Destructive */
+Destructive:       #d4183d
+
+/* Warning/Alert */
+Warning:           #6B8E23  /* Secondary olive */
+```
+
+Chart Colors
+```css
+/* For data visualization */
+Chart 1:           #708238  /* Primary olive */
+Chart 2:           #6B8E23  /* Secondary olive */
+Chart 3:           #8FA952  /* Light olive */
+Chart 4:           #99B45F  /* Lighter olive */
+Chart 5:           #A3BF6B  /* Lightest olive */
+Chart 6:           #ADC977  /* Extra light olive */
+```
+
+Usage Examples
+
+Primary Actions:
+Buttons: `#708238`
+Hover: `#6B8E23`
+
+Status Indicators:
+Active/Present: `#708238`
+High Performance: `#708238`
+Good Performance: `#6B8E23`
+Average Performance: `#8FA952`
+Error/Absent: `#d4183d`
+
+Backgrounds:
+Main: `#ffffff`
+Cards: `#ffffff` with shadow
+Input fields: `#f3f3f5`
+Hover states: `#e9ebef`
+
+Text:
+Primary: `oklch(0.145 0 0)`
+Secondary: `#717182`
+On colored bg: `#ffffff`
