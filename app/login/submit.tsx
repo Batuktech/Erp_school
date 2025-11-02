@@ -8,7 +8,7 @@ export default function Submit() {
     const router = useRouter();
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault();
-        router.push("/main");
+        router.push("/dashboard");
     }
 
     return (
