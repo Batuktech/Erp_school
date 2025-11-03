@@ -1,28 +1,14 @@
 "use client";
 
-import Link from "next/link";
 import Image from "next/image";
-import { usePathname } from "next/navigation";
-import { link } from "fs";
 import Options from "./options";
 
 export default function Sidebar() {
 
-    const pathname = usePathname();
-
-    const links = [
-        { href: "/dashboard", label: "Dashboard" },
-        { href: "/dashboard/student", label: "Students" },
-        { href: "/dashboard/teacher", label: "Teachers" },
-        { href: "/dashboard/class", label: "Classes" },
-        { href: "/dashboard/grade", label: "Grades" },
-        { href: "/dashboard/announcement", label: "Announcements" },
-    ]
-
     return (
             <div className="flex">
                 <div className="">
-                    <div className="flex items-center py-6 gap-6 pl-10 pr-30">
+                    <div className="flex items-center py-5 gap-6 pl-10 pr-10">
                         <Image
                             src="/image/bachelor.png"
                             alt="Logo"
