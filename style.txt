@@ -81,3 +81,18 @@ Text:
 Primary: `oklch(0.145 0 0)`
 Secondary: `#717182`
 On colored bg: `#ffffff`
+
+
+
+
+
+
+adding schedule for teachers and students 
+    backend - admin songoson tuvshnii angin sudlah hiceeluudig avna 
+            api/grades/6/subjects
+
+                "math, pe, biology, ..etc"
+            
+            ehnees ni select subjects, buleg, teacher, timeslot.
+            confirm daraad api/schedule -> assign schedule 
+                uun deer classId yvj bh ucir surag huvaari aa classid aar harna.

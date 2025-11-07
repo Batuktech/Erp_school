@@ -1,4 +1,5 @@
 import Sidebar from "../../components/sidebar";
+import Navbar from "./navbar";
 
 export default function MainLayout({
   children,
@@ -10,7 +11,10 @@ export default function MainLayout({
       <aside>
           <Sidebar />
       </aside>
-      <main className="flex-grow">{children}</main>
+      <main className="flex-grow mt-4">
+        <Navbar />
+        <hr className="mt-4 border-gray-300 border"/>
+        {children}</main>
     </div>
   );
 }
